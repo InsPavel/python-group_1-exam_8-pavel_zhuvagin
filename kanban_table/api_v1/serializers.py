@@ -5,4 +5,4 @@ from webapp.models import Task
 class TaskSerializer(serializers.ModelSerializer):
     class Meta:
         model = Task
-        fields = ('summary', 'description', 'due_date', 'status', 'time_planned')
+        fields = ('id', 'summary', 'description', 'due_date', 'status', 'time_planned')
