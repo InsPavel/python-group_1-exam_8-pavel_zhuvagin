@@ -1,0 +1,11 @@
+p.my_text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}
+
+.my_card {
+    border: 1px solid silver;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
