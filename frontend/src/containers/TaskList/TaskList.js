@@ -3,6 +3,7 @@ import axios from 'axios';
 import './TaskList.css'
 import {TASKS_URL} from "../../api-urls";
 import TaskCard from "../../components/TaskCard/TaskCard";
+import {NavLink} from "react-router-dom";
 
 
 class TaskList extends Component {
@@ -47,6 +48,7 @@ class TaskList extends Component {
     }
     render(){
         return <Fragment>
+            <p><NavLink to={'/tasks/add'}>Добавить задачу</NavLink></p>
             <div className='row'>
                 <div className='col col-4'>
                     <h3>Очередь</h3>
