@@ -61,9 +61,9 @@ class TaskList extends Component {
                 <div className='col col-4'>
                     <h3>В работе</h3>
                     {this.state.in_work.map(task => {
-                    return <div>
-                        <TaskCard task={task} key={task.id}/>
-                    </div>
+                        return <div>
+                            <TaskCard task={task} key={task.id}/>
+                        </div>
                     })}
                 </div>
                 <div className='col col-4'>
